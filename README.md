@@ -83,9 +83,8 @@ npm install
 
 cargo install stellar-sdk
 
-Build Smart Contracts
-
-sh
+### Build Smart Contracts
+    deployed contract address CAJBGPTLMJ4VFTETMY5VPSA2C6IR4XK4S2EHU6O3GR5LFQIUWJSPBWOP
 
     cd ../contracts
     cargo build --release
