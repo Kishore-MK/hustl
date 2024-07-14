@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { checkConnection, retrievePublicKey } from "./freighter";
 import { createUser } from "./contract";
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
 
 const Header = ({setpubkey}) => {
   const [connect, getConnected] = useState("Connect");
