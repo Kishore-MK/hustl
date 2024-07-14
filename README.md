@@ -28,7 +28,7 @@ Ensure you have the following installed on your machine:
     Clone the Repository
 
 
-git clone https://github.com/yourusername/hustl.git
+git clone https://github.com/kishore-mk/hustl.git
 cd hustl
 
 ### Install Backend Dependencies
@@ -79,9 +79,7 @@ npm install
 
     Add the Stellar SDK to your project:
 
-    sh
-
-cargo install stellar-sdk
+    cargo install stellar-sdk
 
 ### Build Smart Contracts
     deployed contract address CAJBGPTLMJ4VFTETMY5VPSA2C6IR4XK4S2EHU6O3GR5LFQIUWJSPBWOP
