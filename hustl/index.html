@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>HUSTL</h2>
+        <button id="connectWallet">Connect to Stellar Wallet</button>
+        
+        <div class="questions-list" id="questionsList">
+            <!-- List of questions by many users -->
+        </div>
+        
+        <div class="selected-question" id="selectedQuestion">
+            <!-- Clicked question from the list -->
+        </div>
+    </div>
+
+    <!-- Modal for answering questions -->
+    <div id="answerModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalQuestion" class="modal-question"></div>
+            <textarea id="answerInput" placeholder="Type your answer here..."></textarea>
+            <button id="postButton">Post</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
