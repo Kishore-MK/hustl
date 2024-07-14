@@ -28,8 +28,8 @@ Ensure you have the following installed on your machine:
     Clone the Repository
 
 
-git clone https://github.com/kishore-mk/hustl.git
-cd hustl
+    git clone https://github.com/kishore-mk/hustl.git
+    cd hustl
 
 ### Install Backend Dependencies
 
